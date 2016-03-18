@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_1"
+            />
+        <EditText
+            android:id="@+id/edittext1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edittext_1"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_2"/>
+        <EditText
+            android:id="@+id/edittext2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edittext_2" />
+    </TableRow>
+
+
+</TableLayout>
